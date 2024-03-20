@@ -39,9 +39,9 @@ class CopyFragment : Fragment() {
 
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_copy, container, false).apply {
-            val displayTextView = findViewById<TextView>(R.id.displayTextView)
-            val nameEditText = findViewById<EditText>(R.id.nameEditText)
-            val changeButton = findViewById<Button>(R.id.changeButton)
+            val displayTextView = findViewById<TextView>(R.id.textView)
+            val nameEditText = findViewById<EditText>(R.id.editTextText)
+            val changeButton = findViewById<Button>(R.id.button)
 
             changeButton.setOnClickListener {
                 val name = nameEditText.text
